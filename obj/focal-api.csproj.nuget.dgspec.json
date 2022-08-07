@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\akios\\focal-api\\focal-api.csproj": {}
+    "C:\\Users\\akios\\Desktop\\Focal-Api\\focal-api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\akios\\focal-api\\focal-api.csproj": {
+    "C:\\Users\\akios\\Desktop\\Focal-Api\\focal-api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\akios\\focal-api\\focal-api.csproj",
+        "projectUniqueName": "C:\\Users\\akios\\Desktop\\Focal-Api\\focal-api.csproj",
         "projectName": "focal-api",
-        "projectPath": "C:\\Users\\akios\\focal-api\\focal-api.csproj",
+        "projectPath": "C:\\Users\\akios\\Desktop\\Focal-Api\\focal-api.csproj",
         "packagesPath": "C:\\Users\\akios\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\akios\\focal-api\\obj\\",
+        "outputPath": "C:\\Users\\akios\\Desktop\\Focal-Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -43,6 +43,24 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "IdentityModel": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.17.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
