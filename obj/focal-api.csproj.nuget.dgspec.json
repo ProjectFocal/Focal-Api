@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Domenico Valentino\\Desktop\\Import\\Focal-Api\\Focal-Api.csproj": {}
+    "C:\\Users\\Domenico Valentino\\Desktop\\Focal-Api\\Focal-Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Domenico Valentino\\Desktop\\Import\\Focal-Api\\Focal-Api.csproj": {
+    "C:\\Users\\Domenico Valentino\\Desktop\\Focal-Api\\Focal-Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Domenico Valentino\\Desktop\\Import\\Focal-Api\\Focal-Api.csproj",
+        "projectUniqueName": "C:\\Users\\Domenico Valentino\\Desktop\\Focal-Api\\Focal-Api.csproj",
         "projectName": "Focal-Api",
-        "projectPath": "C:\\Users\\Domenico Valentino\\Desktop\\Import\\Focal-Api\\Focal-Api.csproj",
+        "projectPath": "C:\\Users\\Domenico Valentino\\Desktop\\Focal-Api\\Focal-Api.csproj",
         "packagesPath": "C:\\Users\\Domenico Valentino\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Domenico Valentino\\Desktop\\Import\\Focal-Api\\obj\\",
+        "outputPath": "C:\\Users\\Domenico Valentino\\Desktop\\Focal-Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,10 @@
             "MongoDB.Driver": {
               "target": "Package",
               "version": "[2.17.1, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.22.0, )"
             }
           },
           "imports": [

@@ -1,7 +1,6 @@
 using System.Collections.Generic;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Models;
 using Focal.Models;
 using Focal.Services;
 
@@ -10,7 +9,7 @@ namespace Focal.Controllers {
     [ApiController]
     public class UserController : Controller {
         private readonly UserService service;
-        public UserController(UserService service) {
+        public UserController(UserService _service) {
             service = _service;
         }
 

@@ -1,10 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "auNf1U5YFpnoScjDFNkfF7G7NCSZMqY6ZRdU/jyI1heuyFwPtADetR236G/oyAMvG2jEHxsQBPyx2hj7th2RHA==",
+  "dgSpecHash": "jPGt/HtB6Y/AAhXAnBMaknJIWm09y91QGXUW4uUZ9ocnwjtwLDHDz9Nnmzs8XObuXCVQh/ZbHp4r1FRTQDfhUQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Domenico Valentino\\Desktop\\Import\\Focal-Api\\Focal-Api.csproj",
+  "projectFilePath": "C:\\Users\\Domenico Valentino\\Desktop\\Focal-Api\\Focal-Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.22.0\\microsoft.identitymodel.jsonwebtokens.6.22.0.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.identitymodel.logging\\6.22.0\\microsoft.identitymodel.logging.6.22.0.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.22.0\\microsoft.identitymodel.tokens.6.22.0.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\mongodb.bson\\2.17.1\\mongodb.bson.2.17.1.nupkg.sha512",
@@ -13,8 +18,10 @@
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\mongodb.libmongocrypt\\1.5.5\\mongodb.libmongocrypt.1.5.5.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.22.0\\system.identitymodel.tokens.jwt.6.22.0.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\system.security.accesscontrol\\5.0.0\\system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "C:\\Users\\Domenico Valentino\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512",
     "C:\\Users\\Domenico Valentino\\.nuget\\packages\\system.security.principal.windows\\5.0.0\\system.security.principal.windows.5.0.0.nupkg.sha512"
   ],
   "logs": []
