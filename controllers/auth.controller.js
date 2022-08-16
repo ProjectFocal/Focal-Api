@@ -2,9 +2,13 @@ const db = require("../models");
 const User = db.user;
 const Role = db.role;
 const dotenv = require("dotenv").config();
+const emails = require("../handlers/emailHandler");
 
 var jwt = require("jsonwebtoken");
 var bcrypt = require("bcryptjs");
+
+//set msg to email.html
+var msg = "./assets/email.html";
 
 exports.signup = async (req, res, next) => {
     const user = new User({
@@ -35,10 +39,13 @@ exports.signup = async (req, res, next) => {
                                 message: err
                             });
                             return;
+                        } else {
+                            res.send({
+                                message: "User was registered successfully!"
+                            });
+                            // Send email to user
+                            emails.sendEmail(user.email, "Welcome to Focal!", msg);
                         }
-                        res.send({
-                            message: "User was registered successfully!"
-                        });
                     });
                 }
             );
@@ -60,11 +67,12 @@ exports.signup = async (req, res, next) => {
                             message: err
                         });
                         return;
+                    } else {
+                        res.send({
+                            message: "User was registered successfully!"
+                        });
+                        emails.sendEmail(user.email, "Welcome to Focal!", msg);
                     }
-
-                    res.send({
-                        message: "User was registered successfully!"
-                    });
                 });
             });
         }
