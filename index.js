@@ -80,6 +80,15 @@ function initial() {
 
         console.log("added 'admin' to roles collection");
       });
+      new Role({
+        name: "developer"
+      }).save(err => {
+        if (err) {
+          console.log("error", err);
+        }
+
+        console.log("added 'developer' to roles collection");
+      });
     }
   });
 }
