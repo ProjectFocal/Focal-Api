@@ -8,3 +8,12 @@ module.exports = {
   authJwt,
   verifySignUp
 };
+
+
+
+
+
+
+
+
+
